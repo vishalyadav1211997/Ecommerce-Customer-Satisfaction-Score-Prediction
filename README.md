@@ -9,31 +9,56 @@ Project Background: Customer satisfaction in the e-commerce sector is a pivotal 
 Dataset Overview: The dataset encompasses customer satisfaction scores over a one-month period on an e-commerce platform named "Shopzilla." It consists of the following features:
 
 Unique id: Unique identifier for each record (integer).
+
 Channel name: Name of the customer service channel (object/string).
+
 Category: Category of the interaction (object/string).
+
 Sub-category: Sub-category of the interaction (object/string).
+
 Customer Remarks: Feedback provided by the customer (object/string).
+
 Order id: Identifier for the order associated with the interaction (integer).
+
 Order date time: Date and time of the order (datetime).
+
 Issue reported at: Timestamp when the issue was reported (datetime).
+
 Issue responded: Timestamp when the issue was responded to (datetime).
+
 Survey response date: Date of the customer survey response (datetime).
+
 Customer city: City of the customer (object/string).
+
 Product category: Category of the product (object/string).
+
 Item price: Price of the item (float).
+
 Connected handling time: Time taken to handle the interaction (float).
+
 Agent name: Name of the customer service agent (object/string).
+
 Supervisor: Name of the supervisor (object/string).
+
 Manager: Name of the manager (object/string).
+
 Tenure Bucket: Bucket categorizing agent tenure (object/string).
+
 Agent Shift: Shift timing of the agent (object/string).
+
 CSAT Score: Customer Satisfaction (CSAT) score (integer).
+
 Project Goal: The primary goal of this project is to develop a deep learning model that can accurately predict the CSAT scores based on customer interactions and feedback. By doing so, we aim to provide e-commerce businesses with a powerful tool to monitor and enhance customer satisfaction in real-time, thereby improving service quality and fostering customer loyalty.
+
 Specific Objectives
 
 Data Preparation: Clean and preprocess the dataset to ensure it is suitable for training a deep learning model.
 Feature Engineering: Identify and engineer features from the dataset that are most predictive of CSAT scores.
+
 Model Development (Using Tensorflow, Keras): Design and train a deep learning ANN model to predict CSAT scores.
+
 Evaluation: Assess the model's performance using appropriate metrics and validate its predictive accuracy. (Accuracy score: 0.6911302525899197)
+
 Insight Generation: Analyze the model's predictions to identify trends, patterns, and areas for service improvement.
+
 Local Deployment (Using Gradio): Deploy the model in your local system and setting to provide ongoing predictions and insights into customer satisfaction. This section is to be covered during your Video Presentation.
